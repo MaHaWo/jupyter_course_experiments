@@ -22,7 +22,12 @@ dependencies = [
 
 [project.optional-dependencies]
 torch = ["lightning>=2.6.6", "torch>=2.15.0", "torchvision>=0.29.2"]
-tests = ["coverage>=7.17.5", "hypothesis>=6.170.17", "pytest>=9.2.0"]
+tests = [
+    "coverage>=7.17.5",
+    "hypothesis>=6.170.17",
+    "pytest>=9.2.0",
+    "pytest-cov>=7.1.0",
+]
 data = ["datasets>=5.2.0", "h5py>=3.16.0", "pyarrow>=26.0.1"]
 julia = ["juliacall>=0.9.37"]
 
